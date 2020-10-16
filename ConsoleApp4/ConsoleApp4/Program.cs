@@ -10,6 +10,7 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
+			{ 
 
 			var a = 1;
 			var b = 1;
