@@ -11,7 +11,7 @@ namespace ConsoleApp4
         static void Main(string[] args)
         {
 
-			var a = 1;
+			/*var a = 1;
 			var b = 1;
 			if (a == 1) 
 			{
@@ -36,7 +36,7 @@ namespace ConsoleApp4
 						}
 
 					}
-				}
+				}*/
 
 			}
 		}
