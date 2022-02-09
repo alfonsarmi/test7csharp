@@ -32,7 +32,7 @@ export class ExploreEntitySummaryCreatorService {
         allLocations
       );
     });
-/*
+
     steps.forEach(businessProcessEntity => {
       this.setEntitySummary(
         locationTree,
@@ -43,17 +43,17 @@ export class ExploreEntitySummaryCreatorService {
         allLocations
       );
     });
-*/
-    //groups.forEach(businessProcessEntity => {
-      //this.setEntitySummary(
-        //locationTree,
-        //businessProcessEntity,
-        //steps,
-        //businessProcesses,
-        //groups,
-        //allLocations
-     //);
-    //});
+
+    groups.forEach(businessProcessEntity => {
+      this.setEntitySummary(
+        locationTree,
+        businessProcessEntity,
+        steps,
+        businessProcesses,
+        groups,
+        allLocations
+      );
+    });
   }
 
   private setEntitySummary(
